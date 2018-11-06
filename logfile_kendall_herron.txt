@@ -1,0 +1,47 @@
+commit ce1d6d053c15a752a69d935b5589c469e2884625
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Thu Oct 25 20:40:45 2018 -0400
+
+    Final Product
+
+commit 1ecf0e2e3159f9dac9ef803c560e838c821563f6
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Thu Oct 25 12:11:12 2018 -0400
+
+    HTTP response with user info
+
+commit 25378ee50b08cb2c6cd085cba2b9c998e0741c20
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Thu Oct 25 11:51:14 2018 -0400
+
+    JWT token is received
+
+commit 523859ca3d398d5fc2fe62900efa95e463fd2b81
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Thu Oct 25 11:40:08 2018 -0400
+
+    Tested the three cases
+
+commit 000ed087aa2fca4999688889db01867a9d6d3069
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Oct 23 12:57:28 2018 -0400
+
+    Avatar image verified
+
+commit c29956d8218026faf4f7f399fc56fa6866d6eb25
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Oct 23 12:27:33 2018 -0400
+
+    Users, Profiles, and Posts work
+
+commit a11bbbd287a3fc07a44be1cfb65da36ac91187fc
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Oct 23 11:50:23 2018 -0400
+
+    fixed untracked files
+
+commit 2b208daf6356b7d7aa803273d1da57000a1202c3
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Oct 23 11:28:06 2018 -0400
+
+    created a new Node.js app
