@@ -1,3 +1,39 @@
+commit 9686ea988ab10447fd23299901a29d0f91e700bb
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 6 10:57:25 2018 -0500
+
+     Finished
+
+commit d2a3aa90ad9101444a74d33bfc0268805376fe5f
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 6 10:56:31 2018 -0500
+
+    delete profile
+
+commit 1dcad55f1a8043124165db95e1d86e9469d30534
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 6 10:55:08 2018 -0500
+
+    4.6 finished
+
+commit 92cd93782c6ffcbd8a71b9e9b6faf75fd0be1a6a
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 6 10:27:31 2018 -0500
+
+    Profiles-user_id, handle, all
+
+commit 8cd198a929bd870e50e4f4d2b6dfb09d5c9ac37d
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 6 10:15:56 2018 -0500
+
+    Validation rules checked
+
+commit e595a0a6c35e2517326b75e32d532eca5a65d638
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 6 09:39:23 2018 -0500
+
+    no profile created
+
 commit ce1d6d053c15a752a69d935b5589c469e2884625
 Author: kendallherron <ktherron@valdosta.edu>
 Date:   Thu Oct 25 20:40:45 2018 -0400
