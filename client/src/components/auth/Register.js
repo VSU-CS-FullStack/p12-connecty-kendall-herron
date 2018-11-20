@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import classnames from 'classnames';
 
-class Register extends React.Component {
+class Register extends Component {
 	constructor(props){
 		super(props);
 
@@ -14,8 +14,9 @@ class Register extends React.Component {
         error: {} // will be explained later
     	};
 
-		this.onInputChange = this.onInputChange.bind(this);
+    	this.onInputChange = this.onInputChange.bind(this);
 		this.onFormSubmit = this.onFormSubmit.bind(this);
+
 	}
 
 	onInputChange(e) {        
@@ -70,15 +71,15 @@ class Register extends React.Component {
 				            <div className="form-group">
 				              	<input 
 				              		type="email" 
-				              		className={classnames("form-control form-control-lg", {'is-invalid': error.name})} 
+				              		className={classnames("form-control form-control-lg", {'is-invalid': error.email})} 
 				              		placeholder="Email Address" 
 				              		name="email" 
-				              		value={this.state.name}
+				              		value={this.state.email}
         							onChange={this.onInputChange}
 				              	/>
 				              	{	
-                                    error.name && (
-                                        <div className="invalid-feedback">{error.name}</div>
+                                    error.email && (
+                                        <div className="invalid-feedback">{error.email}</div>
                                     )
                                 }
 				              <small className="form-text text-muted">This site uses Gravatar so if you want a profile image, use a Gravatar email</small>
@@ -86,30 +87,30 @@ class Register extends React.Component {
 				            <div className="form-group">
 				              	<input 
 				              		type="password" 
-				              		className={classnames("form-control form-control-lg", {'is-invalid': error.name})} 
+				              		className={classnames("form-control form-control-lg", {'is-invalid': error.password})} 
 				              		placeholder="Password" 
 				              		name="password"
-				              		value={this.state.name}
+				              		value={this.state.password}
         							onChange={this.onInputChange}
 				              	/>
 				              	{
-                                    error.name && (
-                                        <div className="invalid-feedback">{error.name}</div>
+                                    error.password && (
+                                        <div className="invalid-feedback">{error.password}</div>
                                     )
                                 }
 				            </div>
 				            <div className="form-group">
 				              	<input 
 				              		type="password" 
-				              		className={classnames("form-control form-control-lg", {'is-invalid': error.name})}
+				              		className={classnames("form-control form-control-lg", {'is-invalid': error.password2})}
 				              		placeholder="Confirm Password" 
 				              		name="password2" 
-				              		value={this.state.name}
+				              		value={this.state.password2}
         							onChange={this.onInputChange}
 				              	/>
 				              	{
-                              		error.name && (
-                                        <div className="invalid-feedback">{error.name}</div>
+                              		error.password2 && (
+                                        <div className="invalid-feedback">{error.password2}</div>
                                     )
                                 }
 				            </div>
