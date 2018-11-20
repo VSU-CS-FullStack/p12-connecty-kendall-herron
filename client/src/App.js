@@ -1,14 +1,19 @@
-import React, { Component } from 'react';
+import React, { component } from 'react';
 import './App.css';
-import NavBar from './components/Navbar';
+import NavBar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Landing from "./components/Landing";
+
+
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>My React App</h1>
-        <Navbar />
+      	<Navbar />
+        <Landing />
+        <Footer />
       </div>
     );
   }

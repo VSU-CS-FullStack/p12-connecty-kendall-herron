@@ -1,19 +1,16 @@
-//import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import NavBar from './components/Navbar';
-import React, { Component } from "react";
+import Footer from './components/Footer';
 
-class App extends Component {
-	constructor(props){
-
+const App = () => {
 	
-	    return (
-	        <div>
-	            <NavBar />
-	        </div>
-	    );
-	}
+	return (
+        <div>
+	        <Footer />
+	    </div>
+
+	);
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
