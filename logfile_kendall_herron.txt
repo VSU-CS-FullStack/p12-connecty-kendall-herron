@@ -1,3 +1,81 @@
+commit 0b1abc1086dc47bc22bc1ccdb171aa0faca73314
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 20 10:51:56 2018 -0500
+
+    herkou
+
+commit 6b83d695cd239408b0a9fc09311ae1a1e797b332
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 20 10:39:28 2018 -0500
+
+    Ready for deployment to Heroku
+
+commit 41ef9c957179f212dcc3743ea1e819c2abb273b9
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 20 00:26:34 2018 -0500
+
+    fixed untracked files
+
+commit 06e7573a1b4cd4177b943ece34a7320020d40966
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 20 00:11:27 2018 -0500
+
+    Redirect to login page after user registration
+
+commit a6a2e03a0338716c6cb7c6bac7f4d74df648bf53
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 20 00:04:36 2018 -0500
+
+    Error handling and Display
+
+commit 4c2786ecf9bf4252474c444db65828c5bc7f6d14
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Mon Nov 19 23:51:20 2018 -0500
+
+    React Component-level State
+
+commit 14bf474ffea1195d71bd28c57b3f627950275934
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Mon Nov 19 23:24:40 2018 -0500
+
+    React Router Setup replaced a with Link
+
+commit 0abf7b28b5097e926513467f66df7a9506d7184e
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Mon Nov 19 23:18:21 2018 -0500
+
+    React Router Setup / , /register
+
+commit e55fe2eaf267021ed2a0bc52a58395188489866e
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Mon Nov 19 23:03:10 2018 -0500
+
+    Footer, Landing
+
+commit 7a3a978338dceaaccaead0d6d03507137d7a60d6
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Mon Nov 19 22:27:06 2018 -0500
+
+    Navbar
+
+commit 59820426da3e226e6aa8fbd7c0f569dd7130c06e
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Thu Nov 15 13:28:55 2018 -0500
+
+    Added Bootstrap
+
+commit e3f94561de104d8bbe6160c324c4068b1b9603d7
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Thu Nov 15 13:16:31 2018 -0500
+
+    cleaned up the front end base code
+
+commit 2bbdc270dc88593b4fbb590454d5312e066b89be
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 13 12:44:56 2018 -0500
+
+    Added proxy and concurrently
+
 commit f9a85a171b8a3fe7af5dc0e2d95b0f3e2146d5f5
 Author: kendallherron <ktherron@valdosta.edu>
 Date:   Thu Nov 8 13:27:44 2018 -0500

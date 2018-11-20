@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.18.4",
+    "nodemon": "^1.18.4"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
