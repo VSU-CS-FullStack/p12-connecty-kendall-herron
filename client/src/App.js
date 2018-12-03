@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 
+import { Provider } from "react-redux";
 import store from "./store";
 
 
