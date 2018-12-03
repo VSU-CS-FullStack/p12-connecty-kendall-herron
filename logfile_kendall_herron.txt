@@ -1,3 +1,93 @@
+commit 9f818896f8bb20453bfe21add84ae20ec28199c0
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Sun Dec 2 23:35:04 2018 -0500
+
+    Logout and Conditional Navbar Links
+
+commit 70eb84e9d547853043efe47dfadedd1b2cbdfdfd
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Sun Dec 2 22:47:10 2018 -0500
+
+    Redirect to the Landing page after logging in
+
+commit 47253abdf3509d27d14180a5e8ca39b47eb5026a
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Sun Dec 2 22:17:07 2018 -0500
+
+    React component
+
+commit 41b26df90a55b03e951c791af6b8f3d9d2d597ad
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Sun Dec 2 21:11:20 2018 -0500
+
+    Final Touch ups
+
+commit 8d290973c2f309bd8228e0d738c6ca8a9abd6618
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Sun Dec 2 20:38:16 2018 -0500
+
+    React component
+
+commit 57a1f63fb6f1229fb6708edacdd0246e64a97e4d
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Sun Dec 2 20:19:57 2018 -0500
+
+    Redux actions and Redux Thunk
+
+commit 110bbb3412300cd3e7c0589dbca8e4e510d8f6bb
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Sun Dec 2 20:17:52 2018 -0500
+
+    Redux reducers and system-level state design
+
+commit efabb0963c8904766be845ed02f888c9e81a8250
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Sun Dec 2 19:59:27 2018 -0500
+
+    Redux Store Installed
+
+commit d5ec732234b7de769f5d8c951a79bb40c0d4b4ea
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 27 13:34:14 2018 -0500
+
+    Working on deploying app to heroku
+
+commit 29298e4f63ed95cab8756996511755f810af454e
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 27 13:30:13 2018 -0500
+
+    Working on deploying app to heroku
+
+commit fe2c96e6af23942cc703e505257378f487a7c4e4
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 27 13:27:53 2018 -0500
+
+    Working on deploying app to heroku
+
+commit 3d07ca89c1d66218acd2fd9a063c7ad994d7158e
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 20 13:51:43 2018 -0500
+
+    Heroku
+
+commit f4f91bae0fd0efcd6e0a006bf729549632fb7713
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 20 11:10:40 2018 -0500
+
+    fixing
+
+commit 89fc7167b45c49c30d1d6515ee761980e45457c5
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 20 11:02:47 2018 -0500
+
+    fixing
+
+commit c41b0686a36482ca7d366688891adde4cd1214fa
+Author: kendallherron <ktherron@valdosta.edu>
+Date:   Tue Nov 20 10:59:20 2018 -0500
+
+    fixed
+
 commit 0b1abc1086dc47bc22bc1ccdb171aa0faca73314
 Author: kendallherron <ktherron@valdosta.edu>
 Date:   Tue Nov 20 10:51:56 2018 -0500

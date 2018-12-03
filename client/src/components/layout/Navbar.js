@@ -17,7 +17,7 @@ import React, { Component } from "react";
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
                         <Link
-                            href=""
+                            to=""
                             onClick={this.onLogoutClick.bind(this)}
                             className="nav-link"
                         >
