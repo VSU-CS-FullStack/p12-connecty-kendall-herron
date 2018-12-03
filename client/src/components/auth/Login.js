@@ -21,9 +21,19 @@ class Login extends Component {
 	}
 
 	componentWillReceiveProps(nextProps) {
+            if (nextProps.auth.isAuthenticated) {
+            this.props.history.push("/landing");
+        }
+
             if (nextProps.errors) {
-                this.setState({ errors: nextProps.errors });
-            }
+            this.setState({ errors: nextProps.errors });
+        }
+    }
+
+    componentDidMount() {
+        if (this.props.auth.isAuthenticated) {
+            this.props.history.push("/landing");
+        }
     }
 
 	onInputChange(e) {        
@@ -56,13 +66,12 @@ class Login extends Component {
 				    <div className="container">
 				      <div className="row">
 				        <div className="col-md-8 m-auto">
-				          <h1 className="display-4 text-center">Login In</h1>
-				          <p className="lead text-center">Login into your Connecty account</p>
+				          <h1 className="display-4 text-center">Login</h1>
+				          <p className="lead text-center">Login your Connecty account</p>
 				          <form noValidate
     							onSubmit={this.onFormSubmit} action="create-profile.html">
 				            <div className="form-group">
-				              	<input 
-    							/>
+
 				            </div>
 				            <div className="form-group">
 				              	<input 
@@ -78,7 +87,7 @@ class Login extends Component {
                                         <div className="invalid-feedback">{error.email}</div>
                                     )
                                 }
-				              <small className="form-text text-muted">This site uses Gravatar so if you want a profile image, use a Gravatar email</small>
+				              
 				            </div>
 				            <div className="form-group">
 				              	<input 
@@ -96,8 +105,7 @@ class Login extends Component {
                                 }
 				            </div>
 				            <div className="form-group">
-				              	<input 
-				              	/>
+
 				            </div>
 				            <input type="submit" className="btn btn-info btn-block mt-4" />
 				          </form>

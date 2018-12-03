@@ -18,7 +18,10 @@ class Landing extends Component {
 			            >
 			            	Sign Up
 			            </Link>
-			            <Link to="login.html" className="btn btn-lg btn-light">Login</Link>
+			            <Link to="/login" 
+			            	className="btn btn-lg btn-light">
+			            	Login
+			            </Link>
 			          </div>
 			        </div>
 			      </div>
