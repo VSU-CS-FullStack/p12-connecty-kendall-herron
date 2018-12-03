@@ -53,6 +53,38 @@ export const loginUser = userData => dispatch => {
         );
 };
 
+// Current User - testing a private API endpoint
+export const currentUser = userData => dispatch => {
+    axios
+        .get("/api/users/current", {})
+        .then(res => {
+            const pay = {
+                ...userData,
+                email: res.data.email
+            };
+            dispatch({
+                type: SET_CURRENT_USER,
+                payload: pay
+            });
+        })
+        .catch(err =>
+            dispatch({
+                type: SET_ERRORS,
+                payload: err.response.data
+            })
+        );
+};
+
+// Log user out
+export const logoutUser = () => dispatch => {
+    // Remove token from localStorage
+    localStorage.removeItem("jwtToken");
+    // Remove auth header for future requests
+    setAuthToken(false);
+    // Set current user to {} which will set isAuthenticated to false
+    dispatch(setCurrentUser({}));
+};
+
 // Set Authorization header
 export const setAuthToken = token => {
     if (token) {
