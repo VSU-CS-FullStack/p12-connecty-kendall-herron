@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import classnames from 'classnames';
 import { connect } from "react-redux";
 import { registerUser } from "../../actions/authActions";
+import PropTypes from "prop-types";
 
 class Register extends Component {
 	constructor(props){
@@ -136,6 +137,12 @@ class Register extends Component {
     }
 }
 
+Register.propTypes = {
+    registerUser: PropTypes.func.isRequired,
+    auth: PropTypes.object.isRequired,
+    errors: PropTypes.object.isRequired
+};
+
 
 
 const mapStateToProps = state => ({
@@ -143,7 +150,4 @@ const mapStateToProps = state => ({
     errors: state.errors
 });
 
-export default connect(
-    mapStateToProps,
-    { registerUser }
-)(Register);
+export default connect(mapStateToProps, { registerUser })(Register);
